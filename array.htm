@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Arrays!!!</title>
+	<script type="text/javascript">
+	alert("shubham file");
+var k=0;
+var s = new Array("Ram","Shyam","Aman","Raju","Rohit");	
+Array.prototype.d=function(){
+for(i=0;i<this.length;i++){
+document.write(this[i]+"<br/>");
+k++;
+}
+}
+s.d();
+document.write("Total no. of students are : = " + k +"<br/>");
+document.write("sorted data <br/>");
+s.sort();
+s.d();
+document.write("reversed  data <br/>");
+s.reverse();
+s.d();
+document.write("removed last data <br/>");
+s.pop();
+s.d();
+document.write("added data <br/>");
+s.push("Ravan");
+s.d();
+
+</script>
+</head>
+<body>
+</body>
+</html>
